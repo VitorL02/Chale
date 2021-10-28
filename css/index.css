@@ -105,10 +105,7 @@ p {
   color: #7d7640;
 }
 
-.conteudo {
-  margin: 0 auto;
-  width: 90%;
-}
+
 
 ul#navegacao {
   float: left;
@@ -123,6 +120,34 @@ ul#navegacao a {
 }
 ul#navegacao a:hover {
   background: #fdf6be;
+}
+
+#beneficios li{
+  padding: 8px;
+  /* Aproximadamente 97px */
+  height: 6em; 
+  border-bottom: 1px solid #f3efcb;
+
+}
+#beneficios  li a  img{
+  float: left;
+  margin-right: 8px;
+
+}
+#beneficios li a p{  
+  color: #000;
+  font-size: 0.8em;
+}
+
+#beneficios li a  h3{
+  font-size: 1.1em;
+  padding: 5px;
+  color: #615b2d;
+  background: url(../assets/ornamento.png) no-repeat  center right;
+}
+#beneficios li:hover{
+  background: #fdf8cb;
+  cursor: pointer;
 }
 
 .depoimento {
@@ -152,4 +177,9 @@ a.reservar {
 }
 a.reservar:hover {
   background: #cfb700;
+}
+
+.conteudo {
+  margin: 0 auto;
+  width: 90%;
 }
